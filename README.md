@@ -59,6 +59,8 @@ The CI/CD pipeline is defined in the [deploy.yaml] to deploy infra and build app
 
 ## What can be improved:
 - Enhanced Security Measures
-- Monitoring and Alerting
-- Containerization Strategy
+- Monitoring and Alerting service can be added
+- Application is missing appropriate tagging 
+- Containerization Strategy can be followed for cloud agnostic design
 - IAM policies can be added to enhance security and access control
+- Terraform composition can be created to improve readability and reduce duplication further. 
