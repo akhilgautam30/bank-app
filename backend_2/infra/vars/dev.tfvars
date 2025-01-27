@@ -1,0 +1,15 @@
+# backend2/vars/dev.tfvars
+
+resource_group_name = "backend2-rg"
+location = "norwayeast"
+app_service_plan_name = "backend2-asp"
+app_service_name = "backend2-app"
+sql_server_name = "backend2-sqlserver"
+sql_database_name = "backend2-db"
+sql_admin_username = "sqladmin"
+subnet_name = "dev-public-vnet"
+vnet_name = "dev-public-vnet"
+apim_name = "backend2-apim"
+publisher_name = "Handelsbanken"
+publisher_email = "admin@Handelsbanken.com"
+password_vault_name = "dev-vault"
